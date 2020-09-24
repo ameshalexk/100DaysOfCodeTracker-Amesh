@@ -8,14 +8,12 @@
 
 ## My Repos
  1. [Challenges Repo]()
- 1. [project 1 code](https://github.com/ameshalexk/minesweeper)
- 1. [project 2 code]()
- 1. [project 3 code]()
- 1. [project 4 code]()
- 1. [project 5 code]()
- 1. [project 6 code]()
- 1. [project 7 code]()
+ 2. [Minesweeper Game](https://github.com/ameshalexk/minesweeper)
+ 3. [T-Apparel(Custom T-shirt Website](https://github.com/ameshalexk/p2-tapparel)
+ 4. [CoinStance (CryptoCurrency Wallet - Frontend](https://github.com/ameshalexk/cryptofront)
+ 5. [CoinStance (CryptoCurrency Wallet - Backend](https://github.com/ameshalexk/cryptoback)
+
 
 ## JOIN
-[Discord Link](https://discord.gg/wJ4y2Jc)
+[Linkedin](https://www.linkedin.com/in/amesh-alex-kuruvilla/)
 
