@@ -8,7 +8,7 @@
 
 ## My Repos
  1. [Challenges Repo]()
- 1. [project 1 code]()
+ 1. [project 1 code](https://github.com/ameshalexk/minesweeper)
  1. [project 2 code]()
  1. [project 3 code]()
  1. [project 4 code]()
