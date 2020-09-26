@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVIDMAP by AMESH</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        #map {
+            width: 80vw;
+            height: 80vh;
+
+        }
+        #head {
+            /* height: 1vh; */
+            text-align: center;
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='head'>COVID MAP BY AMESH</div>
+    <br />
+    <button id="fly">Finix and Amesh Home</button>
+
+
+    <div id='map'></div>
+
+
+</body>
+<script src="./index.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYW1lc2hhbGV4IiwiYSI6ImNrYmI3enpuaDAxdHAyb21xMjBsNHM2Z24ifQ.DP0NlN-cf2fTbGDdYjFGxg';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        zoom: 1,
+        center: [0, 20]
+    });
+
+
+</script>
+
+</html>
