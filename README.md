@@ -12,7 +12,8 @@
  3. [T-Apparel(Custom T-shirt Website)](https://github.com/ameshalexk/p2-tapparel)
  4. [CoinStance (CryptoCurrency Wallet - Frontend)](https://github.com/ameshalexk/cryptofront)
  5. [CoinStance (CryptoCurrency Wallet - Backend)](https://github.com/ameshalexk/cryptoback)
- 6. [CovidMapper (Covid Tracking Map - Backend)](https://github.com/ameshalexk/covidmapper) (WIP)
+ 6. [CovidMapper (Covid Tracking Map - Backend)](https://github.com/ameshalexk/covidmapper)
+ 7. [CovidMapper (Covid Tracking Map - Frontend)](https://github.com/ameshalexk/covidclient)
 
 
 ## JOIN
