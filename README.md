@@ -13,7 +13,7 @@
  4. [CoinStance (CryptoCurrency Wallet - Frontend)](https://github.com/ameshalexk/cryptofront)
  5. [CoinStance (CryptoCurrency Wallet - Backend)](https://github.com/ameshalexk/cryptoback)
  6. [CovidMapper (Covid Tracking Map - Backend)](https://github.com/ameshalexk/covidmapper)
- 7. [CovidMapper (Covid Tracking Map - Frontend)](https://github.com/ameshalexk/covidclient)
+ 7. [CovidMapper (Covid Tracking Map - Frontend)](https://github.com/ameshalexk/covidclient) [Live Website] (https://covidmapper.herokuapp.com/)
 
 
 ## JOIN
