@@ -9,11 +9,11 @@
 ## My Repos
  1. [Challenges Repo]()
  2. [Minesweeper Game](https://github.com/ameshalexk/minesweeper)
- 3. [T-Apparel(Custom T-shirt Website)](https://github.com/ameshalexk/p2-tapparel)
+ 3. [T-Apparel(Custom T-shirt Website)](https://github.com/ameshalexk/p2-tapparel) [Live Website](https://tapparel.herokuapp.com/)
  4. [CoinStance (CryptoCurrency Wallet - Frontend)](https://github.com/ameshalexk/cryptofront)
  5. [CoinStance (CryptoCurrency Wallet - Backend)](https://github.com/ameshalexk/cryptoback)
  6. [CovidMapper (Covid Tracking Map - Backend)](https://github.com/ameshalexk/covidmapper)
- 7. [CovidMapper (Covid Tracking Map - Frontend)](https://github.com/ameshalexk/covidclient) [Live Website] (https://covidmapper.herokuapp.com/)
+ 7. [CovidMapper (Covid Tracking Map - Frontend)](https://github.com/ameshalexk/covidclient) [Live Website](https://covidmapper.herokuapp.com/)
 
 
 ## JOIN
