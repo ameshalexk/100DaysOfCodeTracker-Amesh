@@ -13,7 +13,7 @@ function same(arr1, arr2) {
   return true;
 }
 
-const arr1 = [1, 2, 3];
-const arr2 = [9, 4, 1];
+const arr1 = [1, 2, 8];
+const arr2 = [64, 4, 1];
 
 console.log(same(arr1, arr2));
