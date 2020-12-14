@@ -1,6 +1,6 @@
 function same(a, b) {
   let arr1 = a.toString().split('');
-  let arr2 = b.split('');
+  let arr2 = b.toString().split('');
 
   console.log(arr1, arr2);
   if (arr1.length !== arr2.length) {
