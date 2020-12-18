@@ -24,5 +24,12 @@ const isInNineties  = makeBetweenFunc(1990,2000);
 
 // console.log(isChild(77));
 // console.log(isChild(17));
-console.log(isInNineties(1995));
-console.log(isInNineties(2005));
+// console.log(isInNineties(1995));
+// console.log(isInNineties(2005));
+
+
+function makeLessthan (x,y) {
+  return function (num) {
+    return num < y
+  }
+}
