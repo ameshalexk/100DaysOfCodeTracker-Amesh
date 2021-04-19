@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import {
-  Button,
   StyleSheet,
   Text,
-  TextInput,
   View,
+  TextInput,
+  Button,
+  ScrollView,
   FlatList,
 } from 'react-native';
 
@@ -37,7 +38,7 @@ export default function App() {
       <FlatList
         keyExtractor={(item, index) => item.id}
         data={courseGoals}
-        renderedItem={(itemData) => (
+        renderItem={(itemData) => (
           <View style={styles.listItem}>
             <Text>{itemData.item.value}</Text>
           </View>
@@ -57,10 +58,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   input: {
+    width: '80%',
     borderColor: 'black',
     borderWidth: 1,
     padding: 10,
-    width: '80%',
   },
   listItem: {
     padding: 10,
