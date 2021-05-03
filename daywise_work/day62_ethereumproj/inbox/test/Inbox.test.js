@@ -8,14 +8,23 @@ class Car {
     return 'stopped';
   }
 
-  driver() {
+  drive() {
     return 'vroom';
   }
 }
 
+let car;
+
+beforeEach(() => {
+  car = new Car();
+});
+
 describe('Car Class Testing', () => {
   it('park testing', () => {
-    const car = new Car();
     assert.equal(car.park(), 'stopped');
+  });
+
+  it('driver testing', () => {
+    assert.equal(car.drive(), 'vroom');
   });
 });
