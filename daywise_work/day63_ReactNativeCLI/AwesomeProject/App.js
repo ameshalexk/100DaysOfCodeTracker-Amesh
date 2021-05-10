@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <View style={styles.screen}>
-      <Button title="Take Imagesssss" onPress={pickImage}>
+      <Button title="Take Image" onPress={pickImage}>
         hi
       </Button>
     </View>
