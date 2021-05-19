@@ -1,0 +1,30 @@
+
+{
+    "name": "fear",
+    "description": "scared that someone or something is dangerous, likely to cause pain, or a threat"
+},
+{
+    "name": "anger",
+    "description": "a strong feeling of annoyance, displeasure, or hostility"
+},
+{
+    "name": "joy",
+    "description": "a feeling of great pleasure and happiness"
+},
+
+{
+    "name": "sadness",
+    "description": "the condition or quality of being sad."
+},
+
+{
+    "name": "yuck",
+    "description": "used to express strong distaste or disgust"
+},
+
+{
+    "name": "surprise",
+    "description": "an unexpected or astonishing event, fact, or thing"
+}
+
+
