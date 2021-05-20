@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 0px 0px;
+  grid-template-areas:
+    '.'
+    '.'
+    '.'
+    '.';
+}
+
+.h1 {
+  font-family: Risque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-align: center;
+  color: #000000;
+}
+.h11 {
+  font-family: Risque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-align: center;
+  color: #000000;
+}
+
+.h2 {
+  font-family: Risque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  text-align: center;
+  color: #000000;
+  align-self: start;
+}

@@ -1,0 +1,15 @@
+h1 {
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 121px;
+  text-align: center;
+}
