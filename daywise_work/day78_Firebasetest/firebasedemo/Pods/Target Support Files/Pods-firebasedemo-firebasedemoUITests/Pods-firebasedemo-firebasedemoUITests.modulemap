@@ -1,0 +1,6 @@
+framework module Pods_firebasedemo_firebasedemoUITests {
+  umbrella header "Pods-firebasedemo-firebasedemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

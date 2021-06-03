@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F20A999629596737444A79E /* Pods_firebasedemo_firebasedemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B508871CC58C8BCB9AAA8E6 /* Pods_firebasedemo_firebasedemoUITests.framework */; };
+		321E7C55D5B1F2F73BFD8BB3 /* Pods_firebasedemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1C19D0C511C05CEDB6F14B /* Pods_firebasedemo.framework */; };
+		DCCB5B07B216DF78DA040F6A /* Pods_firebasedemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBEB5A53B4E422A607CC89B /* Pods_firebasedemoTests.framework */; };
+		E831D146266836AC0081EA0B /* firebasedemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831D145266836AC0081EA0B /* firebasedemoApp.swift */; };
+		E831D148266836AC0081EA0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831D147266836AC0081EA0B /* ContentView.swift */; };
+		E831D14A266836AE0081EA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E831D149266836AE0081EA0B /* Assets.xcassets */; };
+		E831D14D266836AE0081EA0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E831D14C266836AE0081EA0B /* Preview Assets.xcassets */; };
+		E831D158266836AE0081EA0B /* firebasedemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831D157266836AE0081EA0B /* firebasedemoTests.swift */; };
+		E831D163266836AE0081EA0B /* firebasedemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831D162266836AE0081EA0B /* firebasedemoUITests.swift */; };
+		E831D171266838530081EA0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E831D170266838530081EA0B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E831D154266836AE0081EA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E831D13A266836AC0081EA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E831D141266836AC0081EA0B;
+			remoteInfo = firebasedemo;
+		};
+		E831D15F266836AE0081EA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E831D13A266836AC0081EA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E831D141266836AC0081EA0B;
+			remoteInfo = firebasedemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A4CA2BB72F527287637BAE /* Pods-firebasedemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasedemoTests.release.xcconfig"; path = "Target Support Files/Pods-firebasedemoTests/Pods-firebasedemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		52E138E1F19DD4C1DF6EFADC /* Pods-firebasedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasedemo.release.xcconfig"; path = "Target Support Files/Pods-firebasedemo/Pods-firebasedemo.release.xcconfig"; sourceTree = "<group>"; };
+		726975CFDEF0CF959CDDEECA /* Pods-firebasedemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasedemo.debug.xcconfig"; path = "Target Support Files/Pods-firebasedemo/Pods-firebasedemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B508871CC58C8BCB9AAA8E6 /* Pods_firebasedemo_firebasedemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebasedemo_firebasedemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9052106F851E3598FB91B56B /* Pods-firebasedemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasedemoTests.debug.xcconfig"; path = "Target Support Files/Pods-firebasedemoTests/Pods-firebasedemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBBEB5A53B4E422A607CC89B /* Pods_firebasedemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebasedemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E374CADFB6C6B3CD7EE09326 /* Pods-firebasedemo-firebasedemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasedemo-firebasedemoUITests.release.xcconfig"; path = "Target Support Files/Pods-firebasedemo-firebasedemoUITests/Pods-firebasedemo-firebasedemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7646DE8DF47DA822A876CBF /* Pods-firebasedemo-firebasedemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasedemo-firebasedemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-firebasedemo-firebasedemoUITests/Pods-firebasedemo-firebasedemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E831D142266836AC0081EA0B /* firebasedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E831D145266836AC0081EA0B /* firebasedemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebasedemoApp.swift; sourceTree = "<group>"; };
+		E831D147266836AC0081EA0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E831D149266836AE0081EA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E831D14C266836AE0081EA0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E831D14E266836AE0081EA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E831D153266836AE0081EA0B /* firebasedemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebasedemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E831D157266836AE0081EA0B /* firebasedemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebasedemoTests.swift; sourceTree = "<group>"; };
+		E831D159266836AE0081EA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E831D15E266836AE0081EA0B /* firebasedemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firebasedemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E831D162266836AE0081EA0B /* firebasedemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firebasedemoUITests.swift; sourceTree = "<group>"; };
+		E831D164266836AE0081EA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E831D170266838530081EA0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF1C19D0C511C05CEDB6F14B /* Pods_firebasedemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebasedemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E831D13F266836AC0081EA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321E7C55D5B1F2F73BFD8BB3 /* Pods_firebasedemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831D150266836AE0081EA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCB5B07B216DF78DA040F6A /* Pods_firebasedemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831D15B266836AE0081EA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F20A999629596737444A79E /* Pods_firebasedemo_firebasedemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D124A0C0EDF9E9A482E4897 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				726975CFDEF0CF959CDDEECA /* Pods-firebasedemo.debug.xcconfig */,
+				52E138E1F19DD4C1DF6EFADC /* Pods-firebasedemo.release.xcconfig */,
+				E7646DE8DF47DA822A876CBF /* Pods-firebasedemo-firebasedemoUITests.debug.xcconfig */,
+				E374CADFB6C6B3CD7EE09326 /* Pods-firebasedemo-firebasedemoUITests.release.xcconfig */,
+				9052106F851E3598FB91B56B /* Pods-firebasedemoTests.debug.xcconfig */,
+				02A4CA2BB72F527287637BAE /* Pods-firebasedemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		500ED4BA3A260939D0D9E3D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF1C19D0C511C05CEDB6F14B /* Pods_firebasedemo.framework */,
+				8B508871CC58C8BCB9AAA8E6 /* Pods_firebasedemo_firebasedemoUITests.framework */,
+				BBBEB5A53B4E422A607CC89B /* Pods_firebasedemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E831D139266836AC0081EA0B = {
+			isa = PBXGroup;
+			children = (
+				E831D144266836AC0081EA0B /* firebasedemo */,
+				E831D156266836AE0081EA0B /* firebasedemoTests */,
+				E831D161266836AE0081EA0B /* firebasedemoUITests */,
+				E831D143266836AC0081EA0B /* Products */,
+				0D124A0C0EDF9E9A482E4897 /* Pods */,
+				500ED4BA3A260939D0D9E3D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E831D143266836AC0081EA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E831D142266836AC0081EA0B /* firebasedemo.app */,
+				E831D153266836AE0081EA0B /* firebasedemoTests.xctest */,
+				E831D15E266836AE0081EA0B /* firebasedemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E831D144266836AC0081EA0B /* firebasedemo */ = {
+			isa = PBXGroup;
+			children = (
+				E831D145266836AC0081EA0B /* firebasedemoApp.swift */,
+				E831D147266836AC0081EA0B /* ContentView.swift */,
+				E831D149266836AE0081EA0B /* Assets.xcassets */,
+				E831D14E266836AE0081EA0B /* Info.plist */,
+				E831D170266838530081EA0B /* GoogleService-Info.plist */,
+				E831D14B266836AE0081EA0B /* Preview Content */,
+			);
+			path = firebasedemo;
+			sourceTree = "<group>";
+		};
+		E831D14B266836AE0081EA0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E831D14C266836AE0081EA0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E831D156266836AE0081EA0B /* firebasedemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E831D157266836AE0081EA0B /* firebasedemoTests.swift */,
+				E831D159266836AE0081EA0B /* Info.plist */,
+			);
+			path = firebasedemoTests;
+			sourceTree = "<group>";
+		};
+		E831D161266836AE0081EA0B /* firebasedemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E831D162266836AE0081EA0B /* firebasedemoUITests.swift */,
+				E831D164266836AE0081EA0B /* Info.plist */,
+			);
+			path = firebasedemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E831D141266836AC0081EA0B /* firebasedemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E831D167266836AE0081EA0B /* Build configuration list for PBXNativeTarget "firebasedemo" */;
+			buildPhases = (
+				5F963CF35AD03A4595A53A31 /* [CP] Check Pods Manifest.lock */,
+				E831D13E266836AC0081EA0B /* Sources */,
+				E831D13F266836AC0081EA0B /* Frameworks */,
+				E831D140266836AC0081EA0B /* Resources */,
+				DBD60E16EF6EDD552254A44D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = firebasedemo;
+			productName = firebasedemo;
+			productReference = E831D142266836AC0081EA0B /* firebasedemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E831D152266836AE0081EA0B /* firebasedemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E831D16A266836AE0081EA0B /* Build configuration list for PBXNativeTarget "firebasedemoTests" */;
+			buildPhases = (
+				8C591834A165D8B81FF6CCFF /* [CP] Check Pods Manifest.lock */,
+				E831D14F266836AE0081EA0B /* Sources */,
+				E831D150266836AE0081EA0B /* Frameworks */,
+				E831D151266836AE0081EA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E831D155266836AE0081EA0B /* PBXTargetDependency */,
+			);
+			name = firebasedemoTests;
+			productName = firebasedemoTests;
+			productReference = E831D153266836AE0081EA0B /* firebasedemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E831D15D266836AE0081EA0B /* firebasedemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E831D16D266836AE0081EA0B /* Build configuration list for PBXNativeTarget "firebasedemoUITests" */;
+			buildPhases = (
+				5D1B5EF092C2FFC2DC67A02E /* [CP] Check Pods Manifest.lock */,
+				E831D15A266836AE0081EA0B /* Sources */,
+				E831D15B266836AE0081EA0B /* Frameworks */,
+				E831D15C266836AE0081EA0B /* Resources */,
+				D4452B1DCDFF45E6181DB6E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E831D160266836AE0081EA0B /* PBXTargetDependency */,
+			);
+			name = firebasedemoUITests;
+			productName = firebasedemoUITests;
+			productReference = E831D15E266836AE0081EA0B /* firebasedemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E831D13A266836AC0081EA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E831D141266836AC0081EA0B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E831D152266836AE0081EA0B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E831D141266836AC0081EA0B;
+					};
+					E831D15D266836AE0081EA0B = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E831D141266836AC0081EA0B;
+					};
+				};
+			};
+			buildConfigurationList = E831D13D266836AC0081EA0B /* Build configuration list for PBXProject "firebasedemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E831D139266836AC0081EA0B;
+			productRefGroup = E831D143266836AC0081EA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E831D141266836AC0081EA0B /* firebasedemo */,
+				E831D152266836AE0081EA0B /* firebasedemoTests */,
+				E831D15D266836AE0081EA0B /* firebasedemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E831D140266836AC0081EA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E831D14D266836AE0081EA0B /* Preview Assets.xcassets in Resources */,
+				E831D14A266836AE0081EA0B /* Assets.xcassets in Resources */,
+				E831D171266838530081EA0B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831D151266836AE0081EA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831D15C266836AE0081EA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D1B5EF092C2FFC2DC67A02E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebasedemo-firebasedemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F963CF35AD03A4595A53A31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebasedemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C591834A165D8B81FF6CCFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebasedemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4452B1DCDFF45E6181DB6E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebasedemo-firebasedemoUITests/Pods-firebasedemo-firebasedemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebasedemo-firebasedemoUITests/Pods-firebasedemo-firebasedemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebasedemo-firebasedemoUITests/Pods-firebasedemo-firebasedemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBD60E16EF6EDD552254A44D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebasedemo/Pods-firebasedemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebasedemo/Pods-firebasedemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebasedemo/Pods-firebasedemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E831D13E266836AC0081EA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E831D148266836AC0081EA0B /* ContentView.swift in Sources */,
+				E831D146266836AC0081EA0B /* firebasedemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831D14F266836AE0081EA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E831D158266836AE0081EA0B /* firebasedemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831D15A266836AE0081EA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E831D163266836AE0081EA0B /* firebasedemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E831D155266836AE0081EA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E831D141266836AC0081EA0B /* firebasedemo */;
+			targetProxy = E831D154266836AE0081EA0B /* PBXContainerItemProxy */;
+		};
+		E831D160266836AE0081EA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E831D141266836AC0081EA0B /* firebasedemo */;
+			targetProxy = E831D15F266836AE0081EA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E831D165266836AE0081EA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E831D166266836AE0081EA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E831D168266836AE0081EA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726975CFDEF0CF959CDDEECA /* Pods-firebasedemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"firebasedemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = firebasedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amesh.firebasedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E831D169266836AE0081EA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E138E1F19DD4C1DF6EFADC /* Pods-firebasedemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"firebasedemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = firebasedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amesh.firebasedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E831D16B266836AE0081EA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9052106F851E3598FB91B56B /* Pods-firebasedemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebasedemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amesh.firebasedemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebasedemo.app/firebasedemo";
+			};
+			name = Debug;
+		};
+		E831D16C266836AE0081EA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A4CA2BB72F527287637BAE /* Pods-firebasedemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebasedemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amesh.firebasedemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/firebasedemo.app/firebasedemo";
+			};
+			name = Release;
+		};
+		E831D16E266836AE0081EA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7646DE8DF47DA822A876CBF /* Pods-firebasedemo-firebasedemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebasedemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amesh.firebasedemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firebasedemo;
+			};
+			name = Debug;
+		};
+		E831D16F266836AE0081EA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E374CADFB6C6B3CD7EE09326 /* Pods-firebasedemo-firebasedemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = firebasedemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = amesh.firebasedemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = firebasedemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E831D13D266836AC0081EA0B /* Build configuration list for PBXProject "firebasedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E831D165266836AE0081EA0B /* Debug */,
+				E831D166266836AE0081EA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E831D167266836AE0081EA0B /* Build configuration list for PBXNativeTarget "firebasedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E831D168266836AE0081EA0B /* Debug */,
+				E831D169266836AE0081EA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E831D16A266836AE0081EA0B /* Build configuration list for PBXNativeTarget "firebasedemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E831D16B266836AE0081EA0B /* Debug */,
+				E831D16C266836AE0081EA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E831D16D266836AE0081EA0B /* Build configuration list for PBXNativeTarget "firebasedemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E831D16E266836AE0081EA0B /* Debug */,
+				E831D16F266836AE0081EA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E831D13A266836AC0081EA0B /* Project object */;
+}
