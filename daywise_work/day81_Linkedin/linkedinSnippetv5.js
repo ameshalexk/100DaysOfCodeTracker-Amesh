@@ -6,7 +6,8 @@
 // @author       ameshalexk
 // @match        https://www.linkedin.com/jobs/search/*
 // @icon         https://www.google.com/s2/favicons?domain=linkedin.com
-// @grant        none
+// @grant        GM_xmlhttpRequest
+// @grant        GM_download
 // @require      https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js
 
 // ==/UserScript==
@@ -103,20 +104,33 @@
     });
     var encodedUri = encodeURI(csvContent);
     console.log(encodedUri);
-    // const options = {
-    //   method: 'post',
-    //   url: 'http://ameshportfolio.herokuapp.com/',
-    //   data: encodedUri,
-    //   transformRequest: [
-    //     (data, headers) => {
-    //       // transform the data
 
-    //       return data;
-    //     },
-    //   ],
-    // };
+    GM_xmlhttpRequest({
+      method: 'POST',
+      url: 'http://localhost/cannot',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8',
+      },
+      data: 'content=erwer',
+      onload: function (response) {
+        console.log('Request successful');
+        console.log(response.responseText);
+      },
+      onerror: function (response) {
+        console.log('Request failed');
+      },
+    });
 
-    // // send the request
-    // axios(options);
+    axios
+      .get(
+        'https://spreadsheets.google.com/feeds/list/13hlDl6xsnGidYmguwomr7eXAeP6ydrAGvqi6IPfmqAQ/od6/public/basic?alt=json'
+      )
+      .then((response) => {
+        console.log(response.data);
+        console.log(response.status);
+        console.log(response.statusText);
+        console.log(response.headers);
+        console.log(response.config);
+      });
   }, getRandomArbitrary(8997, 9215));
 })();
