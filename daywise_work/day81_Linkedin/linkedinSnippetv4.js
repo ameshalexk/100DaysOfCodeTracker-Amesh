@@ -32,6 +32,9 @@
       objDiv.scrollBy(0, getRandomArbitrary(501, 602));
       objDiv.scrollBy(0, getRandomArbitrary(51, 91));
       console.log('start');
+      console.log(objDiv.scrollTop, 1);
+      console.log(objDiv.clientHeight, 2);
+      console.log(objDiv.scrollHeight, 3);
     }, getRandomArbitrary(1351, 1502));
     // return scroll;
   }
