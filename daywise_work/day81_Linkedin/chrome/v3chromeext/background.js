@@ -4,21 +4,12 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     /^(https:\/\/www.linkedin.com\/jobs\/search)/.test(tab.url)
   ) {
     chrome.scripting
-      .insertCSS({
+      .executeScript({
         target: { tabId: tabId },
-        files: ['./foreground_styles.css'],
+        files: ['./foreground.js'],
       })
       .then(() => {
-        console.log('INJECTED THE FOREGROUND STYLES.');
-
-        chrome.scripting
-          .executeScript({
-            target: { tabId: tabId },
-            files: ['./foreground.js'],
-          })
-          .then(() => {
-            console.log('INJECTED THE FOREGROUND SCRIPT.');
-          });
+        console.log('INJECTED THE FOREGROUND SCRIPT.');
       })
       .catch((err) => console.log(err));
   }
