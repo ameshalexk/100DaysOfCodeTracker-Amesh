@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Linkedin Promoted Job Remover",
+    "version": "0.1",
+    "description": "Removes promoted jobs",
+    "background": {
+        
+        "scripts": ["js/background.js"]
+      },
+    "options_page": "js/options.html",
+    "browser_action": {
+      "default_popup": "js/popup.html"
+    },
+    "permissions": [
+         "https://www.google.com/*",
+         "tabs",
+         "storage"
+       ],
+    "icons": {
+         "16": "icons/icon16x16.png",
+         "48": "icons/icon48x48.png",
+         "128": "icons/icon128x128.png"
+         }
+}
