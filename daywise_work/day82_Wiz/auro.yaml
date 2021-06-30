@@ -1,0 +1,157 @@
+- id: '1625028613234'
+  alias: Turn off Light reminder
+  description: ''
+  trigger:
+    - platform: state
+      entity_id: light.wiz_1
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_2
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_3
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_4
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_5
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_6
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_7
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_8
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_9
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_10
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_11
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_12
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_13
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_14
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_15
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_16
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_17
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_18
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_19
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_20
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_21
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_22
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_23
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_24
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_25
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_26
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_27
+      from: 'off'
+      to: 'on'
+    - platform: state
+      entity_id: light.wiz_28
+      from: 'off'
+      to: 'on'
+  condition: []
+  action:
+    - delay:
+        hours: 0
+        minutes: 15
+        seconds: 0
+        milliseconds: 0
+    - service: notify.mobile_app_amesh_iphone
+      data:
+        title: light check
+        message: light check
+  mode: single
+- id: '1625068968508'
+  alias: Printer Level
+  description: ''
+  trigger:
+    - type: value
+      platform: device
+      device_id: 3ec6fee832a45c01a0d8f5cf16151d47
+      entity_id: sensor.hp_printer_toner_black
+      domain: sensor
+      below: 20
+  condition: []
+  action:
+    - service: notify.mobile_app_amesh_iphone
+      data:
+        message: Printer ink below 20 percent.
+        title: Low ink bro
+  mode: single
+- id: '1625082655921'
+  alias: Turn off lights if on for too long
+  trigger:
+    - platform: state
+      entity_id: light.wiz_2
+      to: 'on'
+      for: 00:00:10
+  action:
+    - service: light.turn_off
+      target:
+        entity_id: '{{ trigger.entity_id }}'
+  mode: single
