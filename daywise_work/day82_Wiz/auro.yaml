@@ -155,3 +155,27 @@
       target:
         entity_id: '{{ trigger.entity_id }}'
   mode: single
+
+  # - id: "1625082655921"
+#   alias: Turn off lights if on for too long
+#   trigger:
+#     - platform: state
+#       entity_id: light.wiz_2
+#       to: "on"
+#       for: 00:00:10
+#   action:
+#     - service: light.turn_off
+#       target:
+#         entity_id: "{{ trigger.entity_id }}"
+#   mode: single
+# - id: "1625082655922"
+#   alias: Bathroom Light PIR
+#   trigger:
+#     - entity_id: binary_sensor.bathroom_pir
+#       platform: state
+#       to: "on"
+#   action:
+#     - service: light.turn_on
+#       target:
+#         entity_id: light.wiz_14
+#   mode: single
